@@ -58,6 +58,8 @@ header {
 
 
 
+
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -80,8 +82,9 @@ nav{
 }
 
 ul{
-    width: 50%;
-    margin-left: auto;
+    width: 30%;
+    text-align: center;
+
 }
 
 h1{
@@ -92,14 +95,23 @@ h1{
 }
 
 .heroImg{
-    background-color: #E8E2D8
-    height: 500px;
-    padding: 25px;
+    height: 800px;
+    padding: 30px;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .content{
-    width: 500px;
+    width: 900px;
     margin: 0 auto;
+}
+
+button{
+    width: 70px;
 }
 
 footer{
