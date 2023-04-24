@@ -51,14 +51,9 @@ header {
     background-color:#E8E2D8
 }
 
-
-
-
-
-
-
-
-
+a{
+    text-decoration: none;
+}
 
 .inline-block{
     display: inline-block;
@@ -72,18 +67,19 @@ img{
 }
 
 nav{
-    width: 73%;
+    width: 80%;
     padding: 1%;
-    position: relative;
-    left: 800px;
-    bottom: 125px;
+    display: flex;
+    justify-content: flex-end;
 
-    
 }
 
 ul{
+    display: inline-block;
     width: 30%;
     text-align: center;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -110,11 +106,12 @@ h1{
     margin: 0 auto;
 }
 
-button{
-    width: 70px;
+.button{
+    padding: 10px;
 }
 
 footer{
+    text-align: center;
     display: inline-block;
     padding: 1%;
     position: relative;
@@ -124,6 +121,15 @@ footer{
 .section{
     background-color: #E8E2D8;
     width: 100%;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.workGrid{
+    display: grid;
 }
 
 
