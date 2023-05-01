@@ -106,13 +106,9 @@ h1{
     margin: 0 auto;
 }
 
-.button{
-    padding: 10px;
 }
 
 footer{
-    text-align: center;
-    display: inline-block;
     padding: 1%;
     position: relative;
     top: 250px;
@@ -121,16 +117,29 @@ footer{
 .section{
     background-color: #E8E2D8;
     width: 100%;
+    text-align: center;
 }
 
 .flexContainer{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .workGrid{
-    display: grid;
+    text-align: center;
 }
+
+.myWork{
+    padding: 80px;
+    text-align: center;
+}
+
+.mySkills{
+    padding: 80px;
+    text-align: center;
+}
+
 
 
 
