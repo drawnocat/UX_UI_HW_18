@@ -140,6 +140,11 @@ footer{
     text-align: center;
 }
 
+/* Media query for mobile devices */
 
-
-
+@media (max-width: 768px) {
+    .flexContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
